@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+*, ::after, ::before  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: block;
+}
+
+body {
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+div {
+    display: block;
+}
+
+nav .list {
+    font-family:'Segoe UI', sans-serif;
+}
+
+nav {
+    background-image: linear-gradient(to top, black,grey);
+    width: 100%;
+    height: 3rem;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 12px;
+}
+
+.list li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
+}
+
+.list li a:hover{
+    color:aqua;
+}
+
+section {
+    padding: 100px 0;
+  }
+
+section .details{
+
+    padding: 10px 0px;
+}
+
+section .section {
+    padding: 5px 0px;
+}
+
+
+div .name, .section {
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+div .details {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+p{
+    font-size: 15px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.navbar {
+    padding-right: 30px;
+}
+
+section .skills {
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section .small-logo {
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+
+section .logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section .skills-1 {
+    display: inline-block;
+}
+
+
+
+section .logo-skills-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding-top: 70px;
+    margin: auto;
+}
+
+#skills-container{
+    background-color: #15192D;
+}
+
+#about-container {
+    background-image: linear-gradient(#373F51, #008DD5);
+}
+
+section .car-1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+section .car-2 {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+section .car-1 .car-2 {
+    position: relative;
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 841.3px;
+    }
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
